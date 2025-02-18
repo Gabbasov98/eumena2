@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="color-scheme" content="light only">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="catalog.html" style="display: block; margin-bottom: 20px;">
+            Каталог продукции
+        </a>
+        <a href="news.html" style="display: block; margin-bottom: 20px;">
+            Новость
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+        <a href="services.html" style="display: block; margin-bottom: 20px;">
+            Каталог услуг
+        </a>
+        <a href="cart.html" style="display: block; margin-bottom: 20px;">
+            Корзина товаров
+        </a>
+        <a href="conf.html" style="display: block; margin-bottom: 20px;">
+            Политика конфиденциальности
+        </a>
+        <a href="become-partner.html" style="display: block; margin-bottom: 20px;">
+            Стать партнером
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О компании
+        </a>
+        <a href="projects.html" style="display: block; margin-bottom: 20px;">
+            Проекты
+        </a>
+        <a href="catalog-item.html" style="display: block; margin-bottom: 20px;">
+            Страница товара
+        </a>
+
+
+
+
+        <button data-modal="callModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Обратная связь
+        </button>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="modal call-modal" id="callModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn _close-modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M27.5619 0.0661201C27.473 0.100869 24.4978 3.03264 20.9503 6.58123L14.5003 13.0331L8.04993 6.58284C1.03713 -0.429876 1.48518 -0.0244081 0.875343 0.0900624C0.55707 0.149789 0.170254 0.536879 0.11057 0.855377C-0.00381906 1.46565 -0.408999 1.01734 6.5985 8.03479L13.0439 14.4893L6.56636 20.9766C-0.463833 28.0173 -0.068159 27.5804 0.0440964 28.1793C0.101453 28.4849 0.514586 28.8984 0.820056 28.9558C1.41903 29.0682 0.981067 29.4653 8.01734 22.4291L14.4996 15.9468L20.9823 22.4289C28.0295 29.4755 27.5799 29.0684 28.1892 28.954C28.5075 28.8942 28.8943 28.5071 28.954 28.1886C29.0685 27.5783 29.4765 28.0296 22.4338 20.9769L15.956 14.49L22.4336 8.00269C29.4568 0.968941 29.0679 1.39803 28.9569 0.805551C28.8463 0.216245 28.1385 -0.159003 27.5619 0.0661201Z" fill="#E8EBF6" />
+                </svg>
+            </button>
+            <div class="h3 dark-text">
+                Обратная связь
+            </div>
+            <form action="" class="modal-form">
+                <div class="modal-form__fields">
+                    <div class="fg fg-icon">
+                        <input type="text" placeholder="Как к вам обращаться?">
+                        <img src="img/user.svg" alt="" class="fg__icon">
+                    </div>
+                    <div class="fg fg-icon">
+                        <input type="tel" placeholder="+7 ___ ___ __ __">
+                        <img src="img/phone2.svg" alt="" class="fg__icon">
+                    </div>
+                    <div class="fg fg-icon">
+                        <input type="email" placeholder="Ваш e-mail">
+                        <img src="img/email.svg" alt="" class="fg__icon">
+                    </div>
+                    <div class="fg fg-icon _full">
+                        <textarea placeholder="Ваш вопрос"></textarea>
+                    </div>
+                </div>
+                <div class="m-check">
+                    <input type="checkbox">
+                    <label>
+                        <span>
+            Даю свое согласие на обработку <a href="">персональных данных</a>
+        </span>
+                    </label>
+                </div>
+                <button class="modal-form__btn m-btn m-btn-yellow">
+                    <span>Отправить</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
