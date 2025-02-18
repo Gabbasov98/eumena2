@@ -1,6 +1,6 @@
-import * as THREE from './three.module.js';
-import {OrbitControls} from './OrbitControls.js';
-import {GLTFLoader} from './GLTFLoader.js';
+import * as THREE from '/js/three.module.js';
+import {OrbitControls} from '/js/OrbitControls.js';
+import {GLTFLoader} from '/js/GLTFLoader.js';
 
 
 function main() {

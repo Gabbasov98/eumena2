@@ -61,8 +61,8 @@ import {
 	Vector3,
 	VectorKeyframeTrack,
 	sRGBEncoding
-} from './three.module.js';
-import BufferGeometryUtils from './BufferGeometryUtils.js';
+} from '/js/three.module.js';
+import BufferGeometryUtils from '/js/BufferGeometryUtils.js';
 class GLTFLoader extends Loader {
 
 	constructor( manager ) {
